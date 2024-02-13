@@ -1,0 +1,33 @@
+1. What is Maven?
+
+>>>> Maven is a tool that helps automate the building of Java projects. It handles things like dependencies and the structure of our projects, assisting in the effort to follow best practices and making development more efficient by handling some of the more repetitive tasks of building a project.
+
+2. What lifecycle phases will run when executing the mvn install command?
+
+	>>>> All prior phases up to and including the install phase: validate, compile, test, package, verify, install.
+
+2. What lifecycle phases will run when executing mvn test on a maven project with one file App.java containing:
+
+public class App {
+
+     public static void main(String[] args) {
+         System.out.println("Hello, world!") // HINT: Notice the missing ; (What will this cause to happen?)
+     }
+
+}
+
+	>>>> It will fail during the compile phase.
+
+3. What does mvn clean do? (For reference, see the maven docsLinks to an external site. and Lifecycle ReferenceLinks to an external site..)
+
+	>>>> It cleans your target directory in your Maven file structure, removing any remnants from previous builds.
+
+4. What are the 7 phases of the maven default lifecycle in order?
+
+	>>>> Validate, compile, test, package, verify, install, and deploy.
+
+5. Come up with a mnemonic for remembering the 7 phases of the maven lifecycle and write it here.
+
+	>>>> Vertical Climbing Tests People's Vascular Intensity and Determination
+
+	>>>> Very Cool Trainers Produce Very Innovative Developers
